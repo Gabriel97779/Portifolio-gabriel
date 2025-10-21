@@ -1,0 +1,119 @@
+/*FORMATAÇÕES GENERICAS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* para melhor controle de tamanhos */
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(37, 37, 37);
+}
+
+h2{
+    font-size: 50px;
+    color: white;
+}
+
+/*BARRA DE MENU*/
+#menu{
+    background-color: rgb(169, 0, 0);
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    font-size: 25px;
+}
+
+#menu a:link, #menu a:visited{
+    color: white;
+    padding: 8px 12px;
+}
+
+#menu a:hover{
+    color: white;
+    background: #cb0000;
+    text-decoration:none;
+    border-radius: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu{
+    margin: 0 15px;
+}
+
+/*CONTEUDO PRINCIPAL*/
+#main{
+    width: 920px;
+    margin: 0 auto;
+}
+
+#nome{
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.img-eu{
+    height: auto;
+    width: 350px;
+    margin: 20px 270px ;
+    border-radius: 50%;
+    padding: 5px;
+    border: #cb0000 solid 5px;
+}
+
+/*FORMATAÇÕES DO TEXTO*/
+#formacao{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+#form{
+    text-align: center;
+}
+
+/* ---------- RESPONSIVIDADE ---------- */
+@media (max-width: 768px) {
+    #main {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .img-eu {
+        margin: 20px auto;
+        display: block;
+        width: 80%;
+        max-width: 350px;
+    }
+
+    #menu {
+        font-size: 12px;
+    }
+
+    .menu {
+        display: inline-block;
+        margin: 5px 10px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    #formacao {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    #menu {
+        padding: 15px 10px;
+    }
+
+    #formacao {
+        font-size: 18px;
+    }
+}
