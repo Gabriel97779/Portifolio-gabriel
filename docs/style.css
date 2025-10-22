@@ -1,0 +1,99 @@
+/* FORMATAÇÕES GENÉRICAS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(37, 37, 37);
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+/* TÍTULO */
+h2 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+/* BARRA DE MENU */
+#menu {
+    background-color: rgb(169, 0, 0);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Permite quebrar em telas pequenas */
+    gap: 15px;
+    padding: 20px;
+    font-size: 25px;
+}
+
+#menu a:link,
+#menu a:visited {
+    color: white;
+    padding: 8px 12px;
+}
+
+#menu a:hover {
+    color: white;
+    background: #cb0000;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    margin: 0;
+}
+
+/* CONTEÚDO PRINCIPAL */
+#main {
+    max-width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 50%;
+    padding: 5px;
+    border: #cb0000 solid 5px;
+}
+
+/* TÍTULO */
+#nome {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 600px) {
+    h2 {
+        font-size: 32px;
+    }
+
+    #menu {
+        flex-direction: column;
+        align-items: center;
+        font-size: 12px;
+        gap: 10px;
+        height: 70px;
+    }
+
+    img {
+        max-width: 80%;
+    }
+}
