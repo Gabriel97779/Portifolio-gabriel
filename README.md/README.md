@@ -6,7 +6,7 @@ Aqui você encontrará projetos desenvolvidos em *HTML, CSS, JavaScript e Java, 
 ---
 
 ## 🌐 Portfólio Web
-Projeto desenvolvido como trabalho da faculdade e aprimorado para o portfólio pessoal.
+Projeto desenvolvido como trabalho da faculdade.
 
 📂 Pasta: projetos-web/  
 🛠 Tecnologias: HTML, CSS, JavaScript
@@ -54,4 +54,5 @@ Cada pedido contém vários produtos, e cada produto sabe a qual pedido pertence
 🔗 [GitHub](https://github.com/Gabriel97779)
 
 ---
+
 
