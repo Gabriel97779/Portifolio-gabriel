@@ -10,6 +10,7 @@ Projeto desenvolvido como trabalho da faculdade.
 
 📂 Pasta: projetos-web/  
 🛠 Tecnologias: HTML, CSS, JavaScript
+🔗[Site](https://gabriel97779.github.io/Portifolio-gabriel/)
 
 ---
 
